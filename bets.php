@@ -71,6 +71,8 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
        $racetext .= "\t\t'WP' => '" . implode(", ", $WP) . "',\n";
        $WPs = array_unique(array_values(array_merge($WPs, $WP)));
        $racetext .= "\t\t'WPs' => '" . implode(", ", $WPs) . "',\n";
+       $place = array_diff($favorites, $WP);
+       $racetext .= "\t\t'place' => '" . implode(", ", $place) . "',\n";
     }
     $racetext .= "\t],\n";
     unset($oldFavorites);
