@@ -71,6 +71,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $racetext .= "\t\t'favorites' => '" . implode(", ", $favorites) . "',\n";
     $win1 = $raceData1['place'];
     $inter = $win1;
+    $union = $win1;
     foreach($favorites as $F){
         $raceDataF = $history[$raceNumber][$F];
         $winF = $raceDataF['place'];
@@ -83,6 +84,7 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
         $winF = array_keys($qplsOdds);
         //$racetext .= "\t\t'Win values(Fav: $F)' =>  '" . implode(", ", $winF) . "',\n";
         $inter = array_intersect($inter, $winF);
+        $union = array_values(array_unique(array_merge($union, $winF)));
     }
     $inters = [];
     if(count($favorites) > 1){
@@ -108,12 +110,9 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $intersText .= "]";
     $racetext .= "\t\t'inter' => '" . implode(", ", $inter) . "',\n";
     $racetext .= "\t\t'inters' =>  $intersText ,\n";
-    if(count($favorites) > 1){
-       $WP = array_intersect($inter, $favorites);
-       $racetext .= "\t\t'WP' => '" . implode(", ", $WP) . "',\n";
-       $WPs = array_unique(array_values(array_merge($WPs, $WP)));
-       $racetext .= "\t\t'WPs' => '" . implode(", ", $WPs) . "',\n";
-    }
+    $place = array_diff($favorites, $union);
+    $racetext .= "\t\t'place' => '" . implode(", ", $place) . "',\n";
+
     $racetext .= "\t],\n";
     unset($oldFavorites);
     unset($oldWPs);
