@@ -28,14 +28,10 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     if(!isset($allRacesOdds[$raceNumber])) continue;
     if(isset($oldData)){
         if(isset($oldData[$raceNumber]['favorites'])) $oldFavorites = explode(", ", $oldData[$raceNumber]['favorites']);
-        if(isset($oldData[$raceNumber]['WPs'])) $oldWPs = explode(", ", $oldData[$raceNumber]['WPs']);
     }
     if(isset($oldFavorites)) $favorites = $oldFavorites;
     else $favorites = [];
 
-    if(isset($oldWPs)) $WPs = $oldWPs;
-    else $WPs = [];
-    
     $winsArray = $allRacesOdds[$raceNumber];
     asort($winsArray);
     $runners = array_keys($winsArray);
@@ -51,45 +47,29 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $racetext .= "\t\t*/\n";
     $racetext .= "\t\t'Favorite'  =>  '$favorite',\n";   
     $racetext .= "\t\t'favorites' => '" . implode(", ", $favorites) . "',\n";
-    $win1 = $raceData1['win'];
-    $inter = $win1;
-    foreach($favorites as $F){
-        $raceDataF = $history[$raceNumber][$F];
-        $winF = $raceDataF['win'];
-        //Sort  winF by odds
-        $qplsOdds = [];
-        foreach($winF as $iIndex){
-        if(isset($allRacesOdds[$raceNumber][$iIndex])) $qplsOdds[$iIndex] = $allRacesOdds[$raceNumber][$iIndex];
-        }
-        asort($qplsOdds);
-        $winF = array_keys($qplsOdds);
-        //$racetext .= "\t\t'Win values(Fav: $F)' =>  '" . implode(", ", $winF) . "',\n";
-        $inter = array_intersect($inter, $winF);
-    }
-   
-    $racetext .= "\t\t'inter' => '" . implode(", ", $inter) . "',\n";
-    if(count($favorites) > 1){
-       $WP = array_intersect($inter, $favorites);
-       $racetext .= "\t\t'WP' => '" . implode(", ", $WP) . "',\n";
-       $WPs = array_unique(array_values(array_merge($WPs, $WP)));
-       $racetext .= "\t\t'WPs' => '" . implode(", ", $WPs) . "',\n";
-    }
+    
+    $bet = [];
     foreach($favorites as $one){
         foreach($favorites as $two){
             if($two > $one){
                 $index = "f$one-f$two";
                 if(isset($threes[$raceNumber][$index])){
-                    $racetext .= "\t\t'$index' => '" . $threes[$raceNumber][$index] . "',\n";
+                    $bet[] = $one;
+                    $bet[] = $two;
+                    $threeSet = $threes[$raceNumber][$index];
+                    $bet = array_values(array_unique(array_merge($bet, explode(", ", $threeSet))));
+                    $racetext .= "\t\t'$index' => '" . $threeSet . "',\n";
                 }
             }
         }
     }
+    if(!empty($bet)){
+        sort($bet);
+        $racetext .= "\t\t'bet' => '" . implode(", ", $bet) . "',\n";
+    }
     $racetext .= "\t],\n";
     unset($oldFavorites);
-    unset($oldWPs);
     unset($favorites);
-    unset($WPs);
-    unset($inter);
     $outtext .= $racetext;
 }
 $outtext .= "];\n";
