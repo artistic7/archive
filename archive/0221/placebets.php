@@ -19,7 +19,7 @@ return [
 		'favorites' => '2, 4',
 		'inter' => '5, 6, 7',
 		'inters' =>  [[5, 6, 7, 8, 12]] ,
-		'place' => '',
+		'place' => '2, 4',
 	],
 	'3' => [
 		/**
@@ -29,7 +29,7 @@ return [
 		'favorites' => '4, 8, 3',
 		'inter' => '3, 8',
 		'inters' =>  [[2, 3, 8, 11], [3, 8], [1, 3, 8, 10, 12]] ,
-		'place' => '',
+		'place' => '4',
 	],
 	'4' => [
 		/**
@@ -39,7 +39,7 @@ return [
 		'favorites' => '3',
 		'inter' => '1, 3, 4, 5, 6, 8',
 		'inters' =>  [] ,
-		'place' => '',
+		'place' => '3',
 	],
 	'5' => [
 		/**
@@ -69,7 +69,7 @@ return [
 		'favorites' => '12, 1',
 		'inter' => '5',
 		'inters' =>  [[5]] ,
-		'place' => '',
+		'place' => '12, 1',
 	],
 	'8' => [
 		/**
@@ -79,7 +79,7 @@ return [
 		'favorites' => '3, 1',
 		'inter' => '5, 6, 7',
 		'inters' =>  [[5, 6, 7]] ,
-		'place' => '3',
+		'place' => '3, 1',
 	],
 	'9' => [
 		/**
@@ -89,6 +89,6 @@ return [
 		'favorites' => '5',
 		'inter' => '3, 4, 5, 8, 9, 11, 12',
 		'inters' =>  [] ,
-		'place' => '',
+		'place' => '5',
 	],
 ];
