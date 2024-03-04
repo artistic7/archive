@@ -22,12 +22,12 @@ function in_my_array($needle, $haystack){
 
 if(!isset($argv[1])) die("Race Date Not Entered!!\n");
 
-$step = "bets";
+$step = "placebets";
 $raceDate = trim($argv[1]);
 $currentDir = __DIR__ . DIRECTORY_SEPARATOR . $raceDate;
 
 $allRacesOdds = include($currentDir . DIRECTORY_SEPARATOR . "odds.php");
-$history = include(__DIR__ . DIRECTORY_SEPARATOR . "winhistory.php");
+$history = include(__DIR__ . DIRECTORY_SEPARATOR . "placehistory.php");
 $outFile = $currentDir . DIRECTORY_SEPARATOR . "$step.php";
 
 if(file_exists($outFile)){
@@ -69,11 +69,11 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $racetext .= "\t\t*/\n";
     $racetext .= "\t\t'Favorite'  =>  '$favorite',\n";   
     $racetext .= "\t\t'favorites' => '" . implode(", ", $favorites) . "',\n";
-    $win1 = $raceData1['win'];
+    $win1 = $raceData1['place'];
     $inter = $win1;
     foreach($favorites as $F){
         $raceDataF = $history[$raceNumber][$F];
-        $winF = $raceDataF['win'];
+        $winF = $raceDataF['place'];
         //Sort  winF by odds
         $qplsOdds = [];
         foreach($winF as $iIndex){
@@ -87,10 +87,10 @@ for ($raceNumber = 1; $raceNumber <= $totalRaces; $raceNumber++) {
     $inters = [];
     if(count($favorites) > 1){
         foreach($favorites as $one){
-            $win1 = $history[$raceNumber][$one]['win'];
+            $win1 = $history[$raceNumber][$one]['place'];
             foreach($favorites as $two){
                 if($one != $two){
-                    $win2 = $history[$raceNumber][$two]['win'];
+                    $win2 = $history[$raceNumber][$two]['place'];
                     $three = array_intersect($win1, $win2);
                     if(!empty($three) && !in_my_array($three, $inters)) $inters["F$one-F$two"] = $three;
                 }
