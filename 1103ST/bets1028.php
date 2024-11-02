@@ -5,22 +5,23 @@ return [
 		/**
 		Race 1
 		*/
-		'favorites' => '3',
+		'favorites' => '2, 3',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
-			'inter' => '',
+			'win' => '1, 2, 5, 8',
+			'qin' => '1, 2, 4, 5, 6, 8',
+			'trio' => '1, 2, 3, 4, 5, 6, 8, 12',//count trio: 8
+			'inter' => '2',
 		],
-		'win inter' => '1, 2, 3, 4, 5, 8, 12',
+		'win inter' => '1, 2, 3, 5, 8',
+		'win inter 2' => '1, 2, 5, 8',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
-		'all fav history' => [[3, 9, 8]],
-		'all fav history values' => '3, 8, 9',
+		'all fav history' => [[5, 2, 8]],
+		'all fav history values' => '2, 5, 8',
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '3',//count wp: 1
+		'wp' => '2, 3',//count wp: 2
 	],
 	'2' => [
 		/**
@@ -132,19 +133,16 @@ return [
 		/**
 		Race 7
 		*/
-		'favorites' => '3, 10',
+		'favorites' => '3, 10, 13',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '3, 5, 8',
-			'qin' => '1, 3, 5, 6, 7, 8, 11',
-			'trio' => '1, 2, 3, 5, 6, 7, 8, 11, 14',//count trio: 9
+			'win' => '3, 5, 8, 12',
+			'qin' => '1, 2, 3, 5, 6, 7, 8, 11, 12',
+			'trio' => '1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 14',//count trio: 11
 			'inter' => '3',
 		],
-		'win inter' => '2, 3, 5, 8, 10',
-		'win inter 2' => '3, 5, 8',
+		'win inter' => '',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'all fav history' => [[3, 6, 1]],
-		'all fav history values' => '1, 3, 6',
 		'bets' => [
 		],
 		'total bets' => 0,
@@ -196,24 +194,25 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '1, 4',
+		'favorites' => '1, 4, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '3, 4, 11',
-			'qin' => '1, 3, 4, 5, 9, 11',
-			'trio' => '1, 3, 4, 5, 8, 9, 10, 11',//count trio: 8
-			'inter' => '4',
+			'win' => '2, 3, 4, 10, 11',
+			'qin' => '1, 2, 3, 4, 5, 9, 10, 11, 13',
+			'trio' => '1, 2, 3, 4, 5, 8, 9, 10, 11, 13, 14',//count trio: 11
+			'inter' => '4, 10',
 		],
-		'win inter' => '4, 10, 11',
-		'win inter 2' => '3, 4, 11',
+		'win inter' => '4, 11',
+		'win inter 2' => '11',
 		'allValues' => '',
 		'bets' => [
+			'place(end-favorites 1028)' => '10',
 		],
-		'total bets' => 0,
+		'total bets' => 100,
 		'wp' => '',//count wp: 0
 	],
 ];
-//total place end favorites: -100
+//total place end favorites: -200
 //total place end wp: 0
 //total place wp: -300
 //total sure place: -100
