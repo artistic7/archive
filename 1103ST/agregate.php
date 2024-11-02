@@ -22,12 +22,10 @@ return [
 		'super sure bet' => 'super sure place 11',
 		'places($10)' => '11',
 		'sures($10)' => '11',
-		'super sures($10)' => '11',
-		'place(wp 1)' => '3',
 		'placesWP($30)' => '3',
-		'win(union 438)' => '3, 9, 11, 12',
 		'unions($10)' => '3, 9, 11, 12',
 		'union + favorites' => '3, 9, 11, 12',
+		'super sures($10)' => '11',
 	],
 	'4' => [
 		/**
