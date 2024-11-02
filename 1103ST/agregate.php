@@ -58,14 +58,19 @@ return [
 		'favorites' => '(F) 1, 10',
 		'unions($10)' => '1, 3, 5, 8, 10',
 		'union + favorites' => '1, 3, 5, 8, 10',
-		'win(union 793)' => '1, 3, 5, 10',
-		'win(union 794)' => '1, 3, 8, 10',
+		'win(union 2144)' => '1, 3, 5, 10',
+		'win(union 2192)' => '1, 3, 8, 10',
 	],
 	'9' => [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 2, 3',
+		'favorites' => '(F) 2, 3, 4',
+		'place(end-favorites )' => '4',
+		'super sure bet' => 'super sure place 4',
+		'places($10)' => '4',
+		'sures($10)' => '4',
+		'super sures($10)' => '4',
 	],
 	'10' => [
 		/**
