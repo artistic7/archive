@@ -202,7 +202,7 @@ for ($raceNumber = 1; $raceNumber <= $numberOfRaces; $raceNumber++) {
         sort($allfavhistoryValues);
         $racetext .= "\t\t'all fav history values' => '" . implode(", ", $allfavhistoryValues) . "',\n" ;;
     }
-    $condition1 = !empty($winInter2);
+    $condition1 = !empty(array_intersect($inter, $winInter, $winInter2));
     $condition2 = !empty($winInter);
     $racetext .= "\t\t'bets' => [\n";
     if(count($favorites) > 1 && !empty($winInter) && empty(array_intersect($winInter, $favorites))) {
