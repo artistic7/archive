@@ -5,48 +5,50 @@ return [
 		/**
 		Race 1
 		*/
-		'favorites' => '3, 11',
+		'favorites' => '2, 3, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
-			'inter' => '',
+			'win' => '1, 2, 5, 8',
+			'qin' => '1, 2, 4, 5, 6, 8',
+			'trio' => '1, 2, 3, 4, 5, 6, 8, 12',//count trio: 8
+			'inter' => '2',
 		],
-		'win inter' => '8, 12',
+		'win inter' => '8',
+		'win inter 2' => '1, 2, 5, 8',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10',
 		'bets' => [
-			'win(union 991)' => '3, 8, 11, 12',
+			'win(union 991)' => '2, 3, 8, 11',
 		],
 		'total bets' => 400,
-		'wp' => '3',//count wp: 1
+		'wp' => '2, 3',//count wp: 2
 	],
 	'2' => [
 		/**
 		Race 2
 		*/
-		'favorites' => '3',
+		'favorites' => '3, 6',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
-			'inter' => '',
+			'win' => '2, 3, 5, 6, 9, 10',
+			'qin' => '1, 2, 3, 5, 6, 9, 10, 12',
+			'trio' => '1, 2, 3, 5, 6, 9, 10, 12',//count trio: 8
+			'inter' => '3, 6',
 		],
-		'win inter' => '2, 3, 4, 5, 6, 7, 8, 9, 13',
+		'win inter' => '2, 3, 4, 5, 6, 7, 8, 9',
+		'win inter 2' => '2, 3, 5, 6, 9, 10',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'all fav history' => [[5, 6, 10]],
-		'all fav history values' => '5, 6, 10',
+		'all fav history' => [[2, 6, 3]],
+		'all fav history values' => '2, 3, 6',
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '3',//count wp: 1
+		'wp' => '3, 6',//count wp: 2
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
-		'favorites' => '13',
+		'favorites' => '1, 13',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
 			'win' => '',
@@ -54,12 +56,12 @@ return [
 			'trio' => '',//count trio: 0
 			'inter' => '',
 		],
-		'win inter' => '2, 9',
+		'win inter' => '9',
 		'allValues' => '1, 3, 4, 5, 6, 7, 8',
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '',//count wp: 0
+		'wp' => '1',//count wp: 1
 	],
 	'4' => [
 		/**

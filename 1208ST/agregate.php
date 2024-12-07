@@ -5,22 +5,25 @@ return [
 		/**
 		Race 1
 		*/
-		'favorites' => '(F) 3, 11',
-		'win(union )' => '3, 8, 11, 12',
-		'unions($10)' => '3, 8, 11, 12',
-		'union + favorites' => '3, 8, 11, 12',
+		'favorites' => '(F) 2, 3, 11',
+		'win(union )' => '2, 3, 8, 11',
+		'unions($10)' => '2, 3, 8, 11, 12',
+		'union + favorites' => '2, 3, 8, 11, 12',
 	],
 	'2' => [
 		/**
 		Race 2
 		*/
-		'favorites' => '(F) 3',
+		'favorites' => '(F) 3, 6',
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
-		'favorites' => '(F) 13',
+		'favorites' => '(F) 1, 13',
+		'win(union )' => '1, 2, 9, 13',
+		'unions($10)' => '1, 2, 9, 13',
+		'union + favorites' => '1, 2, 9, 13',
 	],
 	'4' => [
 		/**
