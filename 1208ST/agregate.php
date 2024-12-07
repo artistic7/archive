@@ -51,7 +51,6 @@ return [
 		'places($10)' => '8',
 		'sures($10)' => '8',
 		'placesWP($30)' => '6',
-		'win(union 21)' => '2, 6, 7, 8',
 		'unions($10)' => '2, 6, 7, 8',
 		'union + favorites' => '2, 6, 7, 8',
 	],
@@ -71,6 +70,6 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 10',
+		'favorites' => '(F) 6, 10',
 	],
 ];
