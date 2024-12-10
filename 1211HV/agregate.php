@@ -29,8 +29,8 @@ return [
 		'placesWP($30)' => '3',
 		'unions($10)' => '1, 2, 3, 8, 10',
 		'union + favorites' => '1, 2, 3, 8, 10',
-		'win(union 4)' => '2, 3, 8, 10',
-		'win(union 42)' => '1, 3, 8, 10',
+		'win(union 1005)' => '2, 3, 8, 10',
+		'win(union 1042)' => '1, 3, 8, 10',
 	],
 	'5' => [
 		/**
@@ -55,13 +55,16 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 1, 3',
+		'favorites' => '(F) 1, 3, 11',
+		'win(union 2135)' => '1, 3, 4, 11',
+		'unions($10)' => '1, 3, 4, 11',
+		'union + favorites' => '1, 3, 4, 11',
 	],
 	'9' => [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 1, 2, 5, 6',
+		'favorites' => '(F) 1, 2, 4, 5, 6',
 		'places($10)' => '5',
 		'sures($10)' => '5',
 		'super sures($10)' => '5',
