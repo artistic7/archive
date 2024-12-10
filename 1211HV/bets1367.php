@@ -123,7 +123,7 @@ return [
 		/**
 		Race 7
 		*/
-		'favorites' => '1',
+		'favorites' => '1, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
 			'win' => '',
@@ -131,10 +131,8 @@ return [
 			'trio' => '',//count trio: 0
 			'inter' => '',
 		],
-		'win inter' => '1, 2, 3, 5, 6, 10, 11, 12',
+		'win inter' => '3, 10, 12',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'all fav history' => [[3, 10, 2], [11, 1, 8]],
-		'all fav history values' => '1, 2, 3, 8, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
