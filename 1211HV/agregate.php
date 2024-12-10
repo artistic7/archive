@@ -37,7 +37,6 @@ return [
 		Race 5
 		*/
 		'favorites' => '(F) 2, 12',
-		'place(wp 1)' => '2',
 		'placesWP($30)' => '2',
 	],
 	'6' => [
