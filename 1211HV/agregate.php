@@ -68,7 +68,7 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 1, 2, 4, 5, 6',
+		'favorites' => '(F) 1, 2, 4, 5, 6, 8',
 		'places($10)' => '5',
 		'sures($10)' => '5',
 		'super sures($10)' => '5',
