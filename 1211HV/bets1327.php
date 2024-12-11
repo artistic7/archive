@@ -103,25 +103,21 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '2, 6, 8',
+		'favorites' => '2, 6, 8, 10',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '1, 2, 3, 5, 6, 9, 11',
-			'qin' => '1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12',
-			'trio' => '1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12',//count trio: 11
-			'inter' => '2, 6',
+			'win' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 11',
+			'qin' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
+			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',//count trio: 12
+			'inter' => '2, 6, 8',
 		],
-		'win inter' => '1, 5, 6, 11',
-		'win inter 2' => '1, 6, 11',
+		'win inter' => '1, 6',
+		'win inter 2' => '1',
 		'allValues' => '1, 2, 3, 4, 6, 7, 8, 9, 10',
-		'all fav history' => [[11, 8, 3]],
-		'all fav history values' => '3, 8, 11',
 		'bets' => [
-			'place(end-favorites 1327)' => '8',
-			'place(end-wp 1327)' => '8',
 		],
-		'total bets' => 200,
-		'wp' => '2, 6, 8',//count wp: 3
+		'total bets' => 0,
+		'wp' => '2, 6, 8, 10',//count wp: 4
 	],
 	'7' => [
 		/**
@@ -181,8 +177,8 @@ return [
 		'wp' => '1, 2, 4, 5, 6, 8',//count wp: 6
 	],
 ];
-//total place end favorites: -100
-//total place end wp: -100
+//total place end favorites: 0
+//total place end wp: 0
 //total place wp: 0
 //total sure place: 0
 //total win: -400
