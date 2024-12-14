@@ -26,9 +26,9 @@ return [
 		Race 4
 		*/
 		'favorites' => '(F) 4, 5, 7',
-		'win(union 1394)' => '1, 4, 5, 7',
 		'unions($10)' => '1, 2, 4, 5, 7',
 		'union + favorites' => '1, 2, 4, 5, 7',
+		'win(union 1394)' => '1, 4, 5, 7',
 		'win(union 1396)' => '2, 4, 5, 7',
 	],
 	'5' => [
@@ -51,7 +51,6 @@ return [
 		Race 7
 		*/
 		'favorites' => '(F) 4, 7, 8',
-		'win(union 1478)' => '2, 4, 7, 8',
 		'unions($10)' => '2, 4, 7, 8',
 		'union + favorites' => '2, 4, 7, 8',
 	],
