@@ -19,7 +19,7 @@ return [
 		/**
 		Race 3
 		*/
-		'favorites' => '(F) 1, 3, 7, 11',
+		'favorites' => '(F) 1, 3, 7, 10, 11',
 	],
 	'4' => [
 		/**
@@ -68,9 +68,9 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 1, 3, 5, 12',
+		'favorites' => '(F) 1, 3, 4, 5, 12',
 		'placesWP($30)' => '5',
 		'unions($10)' => '2, 3, 5, 12',
-		'union + favorites' => '1, 2, 3, 5, 12',
+		'union + favorites' => '1, 2, 3, 4, 5, 12',
 	],
 ];
