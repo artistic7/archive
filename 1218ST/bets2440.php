@@ -26,7 +26,7 @@ return [
 		Race 2
 		*/
 		'favorites' => '2, 7',
-		'runners' => '1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13',
+		'runners' => '1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13',
 		'suggestions' => [
 			'win' => '4, 6',
 			'qin' => '3, 4, 6, 7',
@@ -35,7 +35,7 @@ return [
 		],
 		'win inter' => '4, 6, 7, 9, 12',
 		'win inter 2' => '4, 6',
-		'allValues' => '1, 2, 4, 6, 7, 8, 9, 10, 11',
+		'allValues' => '1, 2, 4, 6, 7, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
