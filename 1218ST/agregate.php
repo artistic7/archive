@@ -12,7 +12,6 @@ return [
 		Race 2
 		*/
 		'favorites' => '(F) 1, 2, 7',
-		'place(wp 1157)' => '7',
 		'placesWP($30)' => '7',
 	],
 	'3' => [
@@ -23,8 +22,8 @@ return [
 		'place(end-favorites )' => '7',
 		'places($10)' => '7',
 		'sures($10)' => '7',
-		'place(wp 1209)' => '1',
 		'placesWP($30)' => '1, 2',
+		'place(wp 1209)' => '1',
 		'place(wp 1210)' => '2',
 	],
 	'4' => [
