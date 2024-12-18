@@ -31,9 +31,9 @@ return [
 		Race 4
 		*/
 		'favorites' => '(F) 4, 10',
-		'win(union 1362)' => '1, 2, 4, 10',
 		'unions($10)' => '1, 2, 4, 5, 10, 12',
 		'union + favorites' => '1, 2, 4, 5, 10, 12',
+		'win(union 1362)' => '1, 2, 4, 10',
 		'win(union 1389)' => '1, 4, 10, 12',
 		'win(union 2095)' => '1, 4, 5, 10',
 	],
