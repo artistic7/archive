@@ -11,13 +11,21 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '(F) 2, 7',
+		'favorites' => '(F) 1, 2, 7',
+		'place(wp 1157)' => '7',
+		'placesWP($30)' => '7',
 	],
 	'3' => [
 		/**
 		Race 3
 		*/
-		'favorites' => '(F) 1, 7',
+		'favorites' => '(F) 1, 2, 7',
+		'place(end-favorites )' => '7',
+		'places($10)' => '7',
+		'sures($10)' => '7',
+		'place(wp 1209)' => '1',
+		'placesWP($30)' => '1, 2',
+		'place(wp 1210)' => '2',
 	],
 	'4' => [
 		/**
@@ -35,12 +43,12 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '(F) 2, 7',
-		'unions($10)' => '1, 2, 3, 7, 8, 9',
-		'union + favorites' => '1, 2, 3, 7, 8, 9',
-		'win(union 1351)' => '2, 3, 7, 8',
-		'win(union 1378)' => '2, 3, 7, 9',
-		'win(union 1547)' => '1, 2, 3, 7',
+		'favorites' => '(F) 2, 4, 7',
+		'unions($10)' => '1, 2, 3, 4, 7, 8, 9',
+		'union + favorites' => '1, 2, 3, 4, 7, 8, 9',
+		'win(union 127)' => '2, 4, 7, 8',
+		'win(union 131)' => '1, 2, 4, 7',
+		'win(union 1378)' => '2, 4, 7, 9',
 	],
 	'7' => [
 		/**
@@ -57,9 +65,11 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 3, 6, 7',
+		'favorites' => '(F) 3, 4, 6, 7',
 		'place(end-favorites )' => '7',
+		'super sure bet' => 'super sure place 7',
 		'places($10)' => '7',
 		'sures($10)' => '7',
+		'super sures($10)' => '7',
 	],
 ];
