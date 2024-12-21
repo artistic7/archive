@@ -53,7 +53,6 @@ return [
 		Race 8
 		*/
 		'favorites' => '(F) 1, 13',
-		'place(wp )' => '1',
 	],
 	'9' => [
 		/**
