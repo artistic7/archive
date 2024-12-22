@@ -14,7 +14,6 @@ return [
 		'favorites' => '(F) 2, 3, 14',
 		'place(end-favorites )' => '14',
 		'places($10)' => '14',
-		'win(union 2588)' => '2, 3, 10, 14',
 		'unions($10)' => '2, 3, 10, 14',
 		'union + favorites' => '2, 3, 10, 14',
 	],
