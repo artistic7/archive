@@ -25,20 +25,21 @@ return [
 		/**
 		Race 2
 		*/
-		'favorites' => '5',
+		'favorites' => '1, 5',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
-			'inter' => '',
+			'win' => '5, 6',
+			'qin' => '2, 5, 6, 11',
+			'trio' => '2, 3, 5, 6, 11',//count trio: 5
+			'inter' => '5',
 		],
-		'win inter' => '3, 4, 5, 6, 7, 9, 12',
+		'win inter' => '4, 6, 9',
+		'win inter 2' => '5, 6',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '5',//count wp: 1
+		'wp' => '1, 5',//count wp: 2
 	],
 	'3' => [
 		/**
