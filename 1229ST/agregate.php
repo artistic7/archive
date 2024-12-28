@@ -61,11 +61,12 @@ return [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 1, 3, 7',
+		'favorites' => '(F) 1, 3, 5, 7',
 		'place(end-favorites )' => '7',
-		'places($10)' => '7',
+		'places($10)' => '5, 7',
 		'sures($10)' => '7',
 		'unions($10)' => '1, 3, 7, 10',
-		'union + favorites' => '1, 3, 7, 10',
+		'union + favorites' => '1, 3, 5, 7, 10',
+		'place(end-wp 2586)' => '5',
 	],
 ];
