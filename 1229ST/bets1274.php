@@ -131,22 +131,21 @@ return [
 		/**
 		Race 7
 		*/
-		'favorites' => '1, 3',
+		'favorites' => '1, 3, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '1, 2, 3, 6, 10',
-			'qin' => '1, 2, 3, 4, 6, 8, 10, 11',
+			'win' => '1, 2, 3, 6, 10, 12',
+			'qin' => '1, 2, 3, 4, 5, 6, 8, 10, 11, 12',
 			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',//count trio: 12
 			'inter' => '1, 3',
 		],
-		'win inter' => '1, 2, 3, 5, 6, 10',
-		'win inter 2' => '1, 2, 3, 6, 10',
+		'win inter' => '10',
+		'win inter 2' => '6',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9',
-		'all fav history' => [[1, 2, 8], [2, 10, 9], [1, 8, 5]],
-		'all fav history values' => '1, 2, 5, 8, 9, 10',
 		'bets' => [
+			'win(union 1274)' => '1, 3, 10, 11',
 		],
-		'total bets' => 0,
+		'total bets' => 400,
 		'wp' => '1, 3',//count wp: 2
 	],
 	'8' => [
@@ -212,5 +211,5 @@ return [
 //total place end wp: 0
 //total place wp: 0
 //total sure place: 0
-//total win: -400
+//total win: -800
 //total: 0
