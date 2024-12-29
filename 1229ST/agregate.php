@@ -58,9 +58,11 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '(F) 11, 12',
-		'unions($10)' => '4, 8, 11, 12',
-		'union + favorites' => '4, 8, 11, 12',
+		'favorites' => '(F) 6, 11, 12',
+		'unions($10)' => '4, 6, 8, 11, 12',
+		'union + favorites' => '4, 6, 8, 11, 12',
+		'win(union 1)' => '6, 8, 11, 12',
+		'win(union 1043)' => '4, 6, 11, 12',
 	],
 	'9' => [
 		/**

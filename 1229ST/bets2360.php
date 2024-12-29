@@ -154,20 +154,21 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '11, 12',
+		'favorites' => '6, 11, 12',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '',
-			'qin' => '',
-			'trio' => '',//count trio: 0
+			'win' => '4, 8, 9',
+			'qin' => '4, 8, 9, 12',
+			'trio' => '1, 4, 7, 8, 9, 12',//count trio: 6
 			'inter' => '',
 		],
 		'win inter' => '4',
 		'allValues' => '1, 3, 4, 5, 6, 7, 8',
 		'bets' => [
+			'win(union 2360)' => '4, 6, 11, 12',
 		],
-		'total bets' => 0,
-		'wp' => '',//count wp: 0
+		'total bets' => 400,
+		'wp' => '6',//count wp: 1
 	],
 	'9' => [
 		/**
@@ -212,5 +213,5 @@ return [
 //total place end wp: -100
 //total place wp: 0
 //total sure place: -100
-//total win: 0
+//total win: -400
 //total: 0
