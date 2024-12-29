@@ -1,12 +1,6 @@
 <?php
 
 return [
-	'1' => [
-		/**
-		Race 1
-		*/
-		'favorites' => '(F) 1, 10',
-	],
 	'2' => [
 		/**
 		Race 2
@@ -17,13 +11,16 @@ return [
 		/**
 		Race 3
 		*/
-		'favorites' => '(F) 9',
+		'favorites' => '(F) 2, 9',
+		'win(union 1038)' => '2, 3, 7, 9',
+		'unions($10)' => '2, 3, 7, 9',
+		'union + favorites' => '2, 3, 7, 9',
 	],
 	'4' => [
 		/**
 		Race 4
 		*/
-		'favorites' => '(F) 2',
+		'favorites' => '(F) 2, 3',
 	],
 	'5' => [
 		/**
