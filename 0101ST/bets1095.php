@@ -67,26 +67,23 @@ return [
 		/**
 		Race 4
 		*/
-		'favorites' => '1, 2, 3',
+		'favorites' => '1, 2, 3, 5',
 		'runners' => '1, 2, 3, 4, 5, 6',
 		'suggestions' => [
-			'win' => '1, 2, 3, 4, 6',
+			'win' => '1, 2, 3, 4, 5, 6',
 			'qin' => '1, 2, 3, 4, 5, 6',
 			'trio' => '1, 2, 3, 4, 5, 6',//count trio: 6
-			'inter' => '1, 2, 3',
+			'inter' => '1, 2, 3, 5',
 		],
-		'win inter' => '1, 2, 3, 4',
-		'win inter 2' => '2, 3, 4',
+		'win inter' => '1, 2, 4',
+		'win inter 2' => '2, 4',
 		'allValues' => '1, 2, 3, 4, 5, 6',
-		'all fav history' => [[3, 8, 9]],
-		'all fav history values' => '3, 8, 9',
 		'bets' => [
-			'place(end-favorites 1095)' => '3',
-			'place(end-wp 1095)' => '3',
-			'super sure bet' => 'super sure place 3',
+			'place(end-favorites 1095)' => '5',
+			'super sure bet' => 'super sure place 5',
 		],
-		'total bets' => 300,
-		'wp' => '1, 2, 3',//count wp: 3
+		'total bets' => 200,
+		'wp' => '1, 2, 3, 5',//count wp: 4
 	],
 	'5' => [
 		/**
@@ -230,7 +227,7 @@ return [
 	],
 ];
 //total place end favorites: -100
-//total place end wp: -100
+//total place end wp: 0
 //total place wp: 0
 //total sure place: -100
 //total win: 0

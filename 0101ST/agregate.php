@@ -29,12 +29,12 @@ return [
 		/**
 		Race 4
 		*/
-		'favorites' => '(F) 1, 2, 3',
-		'place(end-favorites )' => '3',
-		'super sure bet' => 'super sure place 3',
-		'places($10)' => '3',
+		'favorites' => '(F) 1, 2, 3, 5',
+		'place(end-favorites )' => '5',
+		'super sure bet' => 'super sure place 5',
+		'places($10)' => '3, 5',
 		'sures($10)' => '3',
-		'super sures($10)' => '3',
+		'super sures($10)' => '3, 5',
 	],
 	'5' => [
 		/**
