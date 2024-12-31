@@ -3,7 +3,7 @@
 
 require 'functions.php';
 
-$currentYear = "2024";
+$currentYear = "2025";
 
 if(!isset($argv[1])) die("Race Date Not Entered!!\n");
 else {
