@@ -46,13 +46,13 @@ return [
 		/**
 		Race 6
 		*/
-		'favorites' => '(F) 5',
+		'favorites' => '(F) 3, 5',
 	],
 	'7' => [
 		/**
 		Race 7
 		*/
-		'favorites' => '(F) 2, 3, 7',
+		'favorites' => '(F) 2, 3, 5, 7',
 	],
 	'8' => [
 		/**
@@ -64,22 +64,19 @@ return [
 		/**
 		Race 9
 		*/
-		'favorites' => '(F) 1, 4, 5, 11',
-		'place(end-favorites )' => '11',
-		'super sure bet' => 'super sure place 11',
+		'favorites' => '(F) 1, 2, 4, 5, 11',
 		'places($10)' => '5, 11',
 		'super sures($10)' => '11',
-		'place(end-wp 1017)' => '5',
 	],
 	'10' => [
 		/**
 		Race 10
 		*/
-		'favorites' => '(F) 1, 10',
-		'unions($10)' => '1, 4, 7, 10, 11',
-		'union + favorites' => '1, 4, 7, 10, 11',
-		'win(union 1007)' => '1, 7, 10, 11',
-		'win(union 1032)' => '1, 4, 7, 10',
+		'favorites' => '(F) 1, 10, 11',
+		'unions($10)' => '1, 2, 4, 7, 10, 11',
+		'union + favorites' => '1, 2, 4, 7, 10, 11',
+		'win(union 1)' => '1, 7, 10, 11',
+		'win(union 2624)' => '1, 2, 10, 11',
 	],
 	'11' => [
 		/**
