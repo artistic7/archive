@@ -148,21 +148,21 @@ return [
 		/**
 		Race 8
 		*/
-		'favorites' => '6, 8, 9',
+		'favorites' => '1, 6, 8, 9',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
 		'suggestions' => [
-			'win' => '2, 4, 5, 6, 8, 9',
-			'qin' => '2, 3, 4, 5, 6, 8, 9',
-			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9',//count trio: 9
-			'inter' => '6, 8, 9',
+			'win' => '1, 2, 4, 5, 6, 8, 9, 10, 11',
+			'qin' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
+			'trio' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',//count trio: 11
+			'inter' => '1, 6, 8, 9',
 		],
-		'win inter' => '2, 9',
+		'win inter' => '',
 		'win inter 2' => '5',
 		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
-		'wp' => '6, 8',//count wp: 2
+		'wp' => '1, 6, 8',//count wp: 3
 	],
 	'9' => [
 		/**
@@ -208,16 +208,15 @@ return [
 		/**
 		Race 11
 		*/
-		'favorites' => '2, 3, 10, 11',
+		'favorites' => '2, 3, 5, 10, 11',
 		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14',
 		'suggestions' => [
-			'win' => '9',
-			'qin' => '4, 9',
-			'trio' => '4, 7, 9',//count trio: 3
-			'inter' => '',
+			'win' => '1, 5, 9',
+			'qin' => '1, 4, 5, 6, 9',
+			'trio' => '1, 4, 5, 6, 7, 8, 9',//count trio: 7
+			'inter' => '5',
 		],
 		'win inter' => '',
-		'win inter 2' => '9',
 		'allValues' => '',
 		'bets' => [
 		],
