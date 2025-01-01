@@ -6,16 +6,16 @@ return [
 		Race 1
 		*/
 		'favorites' => '1, 2',
-		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
+		'runners' => '1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12',
 		'suggestions' => [
 			'win' => '1, 6',
 			'qin' => '1, 4, 6, 7',
 			'trio' => '1, 4, 5, 6, 7, 12',//count trio: 6
 			'inter' => '1',
 		],
-		'win inter' => '1, 3, 5, 6, 8, 9, 11',
+		'win inter' => '1, 3, 5, 6, 8, 11',
 		'win inter 2' => '1, 6',
-		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11',
+		'allValues' => '1, 2, 3, 4, 5, 6, 7, 8, 10, 11',
 		'bets' => [
 		],
 		'total bets' => 0,
